@@ -22,4 +22,4 @@ predictions, probabilities = prediction.classifyImage(os.path.join(execution_pat
 
 # Iterate over the predictions and probabilities and print them
 for eachPrediction, eachProbability in zip(predictions, probabilities):
-    print(eachPrediction, " : ", eachProbability)
+    print(f"{eachPrediction}: {eachProbability})
